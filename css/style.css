@@ -169,3 +169,8 @@ form input {
 .none {
     width: 20px;
 }
+
+
+/* responcive mobile */
+
+@media (min-width: 640px) {}
