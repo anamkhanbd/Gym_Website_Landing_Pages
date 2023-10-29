@@ -60,6 +60,10 @@ body {
     font-weight: lighter;
 }
 
+.manu ul li a:hover {
+    border-bottom: 2px solid #FF560D;
+}
+
 .heading h1 {
     font-size: 60px;
     font-family: sans-serif;
@@ -92,7 +96,13 @@ body {
     transition: 0.5s all;
     border-radius: 3px;
 }
-.button:
+
+.button:hover {
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+}
+
 .button h3 {
     text-align: center;
     font-family: sans-serif;
