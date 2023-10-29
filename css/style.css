@@ -132,3 +132,40 @@ body {
     font-family: sans-serif;
     font-weight: bolder;
 }
+
+
+/* Contact Form Pages */
+
+form {
+    width: 500px;
+    margin-left: 40px;
+    height: fit-content;
+    border: 1px solid red;
+}
+
+form,
+input {
+    color: #000;
+}
+
+form label {
+    font-size: large;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+form label span {
+    color: red;
+    font-size: large;
+}
+
+form input {
+    width: 450px;
+    height: 40px;
+}
+
+.none {
+    width: 20px;
+}
